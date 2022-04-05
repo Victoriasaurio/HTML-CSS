@@ -1,0 +1,144 @@
+/* First Reto was DONE! */
+/* .contenedor {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    gap: 20px;
+} */
+
+.item {
+    font-size: 4rem;
+}
+
+/* Propiedades de alineación SECOND CLASS*/
+/* .contenedor {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 150px 150px 150px;
+    grid-auto-rows: 150px;
+    height: 600px;
+    justify-content: center;
+    align-content: center; 
+    place-content: center; #Alinea horizontal y vertical
+    justify-items: end;
+    align-items: flex-start;
+} */
+/* Place self */
+/* .item-2 {
+    justify-self: start;
+    align-self: flex-end;
+} */
+
+/* .contenedor-reto-02 {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-auto-rows: 150px;
+    gap: 15px;
+    place-content: center;
+    justify-items: flex-end;
+    align-items: flex-end;
+} */
+
+/* Propiedades de ubicación THIRD CLASS*/
+/* .contenedor {
+    border: 5px solid #fff1b2;
+    background-color: #fff1df;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 75px 75px 75px;
+    grid-template-areas: 
+        "header header header"
+        "side main main"
+        "side main main";
+    place-content: center;
+} */
+/* PRIMERA FORMA */
+/* .item-1 {
+    border: 5px solid #f8bbd0;
+    background-color: #ffeeff;
+    grid-column-start: 1;
+    grid-column-end: 4; 
+}
+.item-2 {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    grid-row: 2/4;
+}
+.item-3 {
+    border: 5px solid #b2ebf2;
+    background-color: #e5ffff;
+    grid-area: 2/2/4/4; 
+} */
+
+/* SEGUNDA FORMA */
+/* .item-1 {
+    border: 5px solid #f8bbd0;
+    background-color: #ffeeff;
+    grid-area: header;
+}
+.item-2 {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    grid-area: side;
+}
+.item-3 {
+    border: 5px solid #b2ebf2;
+    background-color: #e5ffff;
+    grid-area: main;
+} */
+
+/* RETO 3: ARMADO DE GRILLA */
+.contenedor {
+    border: 5px solid #fff1b2;
+    background-color: #fff1df;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 75px 75px 75px;
+    grid-template-areas: 
+        "header side side"
+        "main main headerr"
+        "headerrr sidee mainn";
+    place-content: center;
+}
+.item-1 {
+    border: 5px solid #f8bbd0;
+    background-color: #ffeeff;
+    grid-area: header;
+}
+.item-2 {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    grid-area: side;
+}
+.item-3 {
+    border: 5px solid #b2ebf2;
+    background-color: #e5ffff;
+    grid-area: main;
+}
+.item-4 {
+    border: 5px solid #f8bbd0;
+    background-color: #ffeeff;
+    grid-area: headerr;
+}
+.item-5 {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    grid-area: headerrr;
+}
+.item-6 {
+    border: 5px solid #b2ebf2;
+    background-color: #e5ffff;
+    
+}
+.item-7 {
+    border: 5px solid #b2ebf2;
+    background-color: #e5ffff;
+    
+}
